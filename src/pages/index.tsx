@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main className="bg-[#1E0612] bg-left bg-[url('/Images/Topographic-1.svg')] bg-no-repeat">
       <HeroSection />
+      {/*<MintNFTSection />*/}
     </main>
   );
 }

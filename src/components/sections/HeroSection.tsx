@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <div>
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 justify-center">
-        <div className="text-center">
+      <div className="mx-auto py-32 sm:py-48 lg:py-56">
+        <div className="text-center flex flex-col  justify-center items-center">
           <h1 className="text-8xl font-normal font-tiempos italic text-[#7AF274] ">
             Crypto
             <span className="font-tickerbit" aria-hidden="true">
